@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+		<title>Portal de Notícias</title>
+		<link href="assets/css/style.css" rel="stylesheet" />
+		<script type="text/javascript" src="assets/js/script.js"></script>
+	</head>
+	<body>
+		<div class="top">
+			<div class="insidetop">
+				<div class="lefttop">
+				</div>
+				<div class="righttop">
+					<div class="search-container">
+					<input type="text" name="search" class="searchtop" placeholder="Procurar..." />
+					<button type="submit">🔍</button>
+					</div>
+					<a href=""><img src="assets/images/icons/youtube.png" border="0" width="25" height="25"/></a>
+					<a href=""><img src="assets/images/icons/instagram.png" border="0" width="25" height="25"/></a>
+					<a href=""><img src="assets/images/icons/twitter.png" border="0" width="25" height="25"/></a>
+					<a href=""><img src="assets/images/icons/facebook.png" border="0" width="25" height="25"/></a>
+				</div>
+			</div>
+		</div>
+		<div class="secondtop">
+			<div class="inside2top">
+				<div class="logo">
+					<img src="assets/images/logos/portal-de-noticias-dois.png" width="184" height="60"/>
+				</div>
+			</div>
+		</div>
+		<div class="menu">
+			<div class="insidemenu">
+				<div class="menu-name" onclick="toggleMenu()">MENU</div>
+				<img src="assets/images/icons/menu-icon.png" border="0" width="20" height="20" class="mobile-menu" onclick="toggleMenu()" />
+				<ul id="menu">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li>Urgente</li>
+					<li></li>
+					<li>Noticias</li>
+					<li></li>
+					<li>Entreterimento</li>
+				</ul>
+			</div>
+		</div>
+		<div class="urgentnews">
+			<div class="insideurgentnews">
+				<div class="urgentnewsarea">
+					<div class="urgentnewstitle">URGENTE</div>
+					<div class="urgentnewstext">Polícia Civil prende seis pessoas durante operação no bairro Cabana do Pai Tomás, em BH</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="insidecontainer">
+				<div class="leftside">
+					<div class="slideshow" id="slideshow">
+						<div class="slidecircle">
+							<div class="circle" onclick="mudarSlide(0)"></div>
+							<div class="circle" onclick="mudarSlide(1)"></div>
+							<div class="circle" onclick="mudarSlide(2)"></div>
+							<div class="circle" onclick="mudarSlide(3)"></div>
+						</div>
+						<div class="slideshow-area">
+							<div class="slide" onclick="window.location.href='https://pt.wikipedia.org/wiki/Cabana_Pai_Tomaz';" style="background-image:url(https://i.em.com.br/H0a2iuwx3GzznvtG2iEocx9--4U=/1200x720/smart/imgsapp.em.com.br/app/noticia_127983242361/2022/08/31/1390361/aglomerado-cabana-do-pai-tomas-com-ceu-de-fim-de-tarde-nuvens-de-chuva-e-luz-lateral_1_1047196.png)">
+								<div class="slideinfo">
+									<div class="slideinfo-title">Cabana do Pai Tomás</div>
+									<div class="slideinfo-subtitle">Um pouco da história da comunidade Cabana do Pai Tomás</div>
+								</div>
+							</div>
+							<div class="slide" onclick="window.location.href='https://www.otempo.com.br/cidades/policia-ocupa-cabana-do-pai-tomas-para-conter-alianca-de-traficantes-de-bh-e-rj-1.3316853';" style="background-image:url(https://www.otempo.com.br/image/contentid/policy:1.3316857:1706044953/WhatsApp-Image-2024-01-23-at-12-18-17-jpeg.jpeg?f=3x2&w=1224)">
+								<div class="slideinfo">
+									<div class="slideinfo-title">Polícia ocupa Cabana do Pai Tomás para conter aliança de traficantes de BH e RJ</div>
+									<div class="slideinfo-subtitle">Uma força-tarefa teve início nesta terça-feira (23 de janeiro), e até o fim da manhã três pessoas haviam sido presas</div>
+								</div>
+							</div>
+							<div class="slide" onclick="window.location.href='https://www.otempo.com.br/cidades/idosa-de-91-anos-e-presa-e-admite-receber-para-esconder-drogas-na-cabana-em-bh-1.3273441';" style="background-image:url(https://www.otempo.com.br/image/contentid/policy:1.2233924:1699835928/hands-4051469-1280-jpg.jpg?f=3x2&w=1224)">
+								<div class="slideinfo">
+									<div class="slideinfo-title">Idosa de 91 anos é presa e admite receber para esconder drogas na Cabana, em BH</div>
+									<div class="slideinfo-subtitle">Aposentada confessou que traficantes pagavam R$ 1.200 por mês para ela.</div>
+								</div>
+							</div>
+							<div class="slide" onclick="window.location.href='https://www.otempo.com.br/cidades/jovem-decora-placa-de-moto-de-ladroes-e-ajuda-em-prisoes-em-bh-1.3263963';" style="background-image:url(https://www.otempo.com.br/image/contentid/policy:1.3263964:1698583263/sacadura-JPG.JPG?f=3x2&w=1224)">
+								<div class="slideinfo">
+									<div class="slideinfo-title">Jovem decora placa de moto de ladrões e 'ajuda' em prisões</div>
+									<div class="slideinfo-subtitle">Vítima seguia para o metrô quando foi abordada por uma dupla em uma motocicleta
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="widget">
+						<div class="widgettitle">NOTÍCIAS SOBRE A COMUNIDADE</div>
+							<div class="newsarea1">
+								<div class="news-item bigger">
+									<div class="news-img">
+										<img src="https://prefeitura.pbh.gov.br/sites/default/files/styles/slideshow/public/estrutura-de-governo/comunicacao/site-projeto-mobilidade-e-inclusao-urbana-no-cabana-pbh-divulgacao.jpg?itok=4qU8SOMb" onclick="window.location.href='https://prefeitura.pbh.gov.br/noticias/moradores-do-aglomerado-cabana-do-pai-tomas-conhecem-programa-de-mobilidade';" border="0"/>
+									</div>
+									<div class="news-title">Moradores do Aglomerado Cabana do Pai Tomás conhecem programa de mobilidade</div>
+									<div class="news-info">Há 5 minutos • Noticias • 115 comentários</div>
+								</div>
+							</div>
+							<div class="newsarea2">
+								<div class="news-item">
+									<div class="news-img">
+										<img src="https://defatoonline.com.br/wp-content/webp-express/webp-images/uploads/2023/01/PCMG_Repressao_trafico_cabana_pai_tomas-780x520.jpg.webp" onclick="window.location.href='https://defatoonline.com.br/denuncia-de-moradores-ajuda-a-prender-olheiros-do-trafico-de-drogas-em-bh/';" border="0" width="80" height="80"/>
+									</div>
+									<div class="news-title">Denúncia de moradores ajuda a prender olheiros do tráfico de drogas em BH</div>
+									<div class="news-info">Há 10 minutos • Noticias</div>
+								</div>
+								<div class="news-item">
+									<div class="news-img">
+										<img src="https://prefeitura.pbh.gov.br/sites/default/files/styles/slideshow/public/estrutura-de-governo/cabana-pai-tomas.jpg?itok=aIkACsjr" border="0" width="80" height="80"/>
+									</div>
+									<div class="news-title">reunião com a comunidade para implantação do CRAS Cabana do Pai Tomás</div>
+									<div class="news-info">Há 10 minutos • Noticias</div>
+								</div>
+								<div class="news-item">
+									<div class="news-img">
+										<img src="https://www.98live.com.br/_next/image?url=https%3A%2F%2Ffiles.98live.com.br%2Fnews%2F18556%2Fcover%2Fv1704793308141%2F1140x642%2Fpolicia_procura_responsaveis_por_incendios_a_onibus_na_avenida_amazonas_em_bh.png&w=1200&q=75" border="0" width="80" height="80"/>
+									</div>
+									<div class="news-title">Polícia procura responsáveis por incêndios a ônibus na Avenida Amazonas, em BH</div>
+									<div class="news-info">Há 2 horas • Central da Diversidade</div>
+								</div>
+								<div class="news-item">
+									<div class="news-img">
+										<img src="https://s2-g1.glbimg.com/OYhUBdbiq7_fGwjZ6JVkJ9BX8i4=/0x0:1599x777/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/R/J/iZ6W2aRCACrwcd1lmhgQ/arvore1.jpg" border="0" width="80" height="80"/>
+									</div>
+									<div class="news-title">Chuva causa quedas de árvores e inundações no bairro Cabana do Pai Tomás</div>
+									<div class="news-info">Há 5 horas • Além do Gourmet</div>
+								</div>
+							</div>
+							<div style="clear:both"></div>
+					</div>
+					<div class="widget">
+						<div class="widgettitle">ENTRETERIMENTO</div>
+							<div class="newsarea1">
+								<div class="news-item bigger">
+									<div class="news-img">
+										<img src="assets/images/entertainment/avengers-endgame.jpg" border="0"/>
+									</div>
+									<div class="news-title">Saiba como Vingadores: Ultimato se tornou o filme com a maior bilheteria de todos os tempos</div>
+									<div class="news-info">Há 25 minutos • Cantinho do Cinema • 52 comentários</div>
+								</div>
+							</div>
+							<div class="newsarea2">
+								<div class="news-item">
+									<div class="news-img">
+										<img src="assets/images/entertainment/brad-pitt.jpg" border="0" width="80" height="80"/>
+									</div>
+									<div class="news-title">Famosa estátua de cera de Brad Pitt vem ao Brasil pela primeira vez</div>
+									<div class="news-info">Há 50 minutos • Celebridades</div>
+								</div>
+								<div class="news-item">
+									<div class="news-img">
+										<img src="assets/images/entertainment/blueberry.jpg" border="0" width="80" height="80"/>
+									</div>
+									<div class="news-title">Por que a dieta 'blueberry' das famosas pode não ser tão boa assim</div>
+									<div class="news-info">Há 3 horas • Saúde na Telinha</div>
+								</div>
+								<div class="news-item">
+									<div class="news-img">
+										<img src="assets/images/entertainment/funko-jon-snow.jpg" border="0" width="80" height="80"/>
+									</div>
+									<div class="news-title">Os funkos de Game of Thrones são a coisa mais fofa da internet; veja fotos</div>
+									<div class="news-info">Há 6 horas • Papo de Seriador</div>
+								</div>
+								<div class="news-item">
+									<div class="news-img">
+										<img src="assets/images/entertainment/terror-books.jpg" border="0" width="80" height="80"/>
+									</div>
+									<div class="news-title">Estes dez livros de terror moderno farão você dormir arrepiado e com calafrios</div>
+									<div class="news-info">Há 9 horas • Cantinho da Leitura</div>
+								</div>
+							</div>
+							<div style="clear:both"></div>
+					</div>
+				</div>
+				<div class="rightside">
+					<div class="widget">
+						<div class="widgettitle">FRASE DO DIA</div>
+						<div class="widgetcontent">
+							"Quem estuda e não pratica o que aprendeu é como o homem que lavra e não semeia." (Provérbio Árabe)
+						</div>
+					</div>
+					<div class="widget">
+						<div class="widgettitle">MAIS ACESSADAS</div>
+						<div class="widgetcontent">
+							<div class="acessadas-item">BRT Amazonas e urbanização no Cabana do Pai Tomás: PBH lança projeto de obras
+							</div>
+							<div class="acessadas-item">'Foi uma execução', diz mulher de homem morto em operação da PM na Cabana
+							</div>
+							<div class="acessadas-item">Homem morto em operação militar no Aglomerado Cabana estava foragido
+							</div>
+							<div class="acessadas-item">Trio vê homem na janela, invade casa e o mata a facadas na região Oeste de BH
+							</div>
+							<div class="acessadas-item-last">Mulher é presa ao esfaquear namorado que ameaçou filho dela em BH
+							</div>
+					    </div>
+					</div>
+					<div class="widget">
+						<div class="widgettitle">PUBLICIDADE</div>
+						<div class="widgetpepsi">
+							<a href="https://lp.una.br/pos/?gad_source=1&gclid=EAIaIQobChMIh4ykkZG5hQMVRV5IAB2MEQv8EAAYASAAEgIqHfD_BwE"><img src="https://cdldivinopolis.com.br/imagens/487/una-divinopolis_20520221458490.jpg" border="" width="275" class="pepsi"/></a>
+					    </div>
+					</div>
+					<div class="widget">
+						<div class="widgettitle">ENCONTRE-NOS NO FACEBOOK</div>
+						<div class="widgetfacebook">
+							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=273&height=449&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="273" height="449" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+						</div>
+					</div>
+			</div>
+		</div>
+		<div class="footer">
+		© Portal de Notícias 2019. Todos os direitos reservados.
+		</div>
+	</body>
+</html>
