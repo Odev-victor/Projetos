@@ -80,7 +80,6 @@ class Empregado {
         idade += 1;
     }
 
-    @Override
     public String toString() {
         return "Empregado{" +
                 "nome='" + nome + '\'' +
